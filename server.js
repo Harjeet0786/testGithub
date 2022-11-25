@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const botName = 'ChatCord Box';
 
-
+console.log("Git Test")
 //run when a client connects
 
 io.on('connection', (socket) => {
